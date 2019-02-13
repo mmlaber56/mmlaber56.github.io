@@ -1,0 +1,45 @@
+body,
+html {
+  	width: 100%;
+  	height: 100%;
+ 	background: url(https://images.pexels.com/photos/824678/pexels-photo-824678.jpeg?cs=srgb&dl=ball-shaped-blur-blurred-background-824678.jpg&fm=jpg) no-repeat center center fixed;
+	background-size: cover;
+	/*height: 100%;*/
+	overflow: hidden;
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-content: center;*/
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+ /*background-size: 100%;*/
+ /*background-repeat: no-repeat;*/
+ /*background-color: rgb(60,60,60);*/
+ 	/*width: 100%;*/
+
+}
+.heading {
+	/*height: 100%;*/
+    /*justify-content: center;*/
+	/*align-content: center;*/
+	/*flex-wrap: wrap-reverse;*/
+	color: yellow;
+	font-family: sans-serif;
+}
+.container {
+	height: 600px;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 50px;
+}
+.btn {
+	height: 50px;
+	width: 150px;
+	align-self: center;
+}
